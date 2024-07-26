@@ -1,7 +1,6 @@
 #pragma once
 #include <cmath>
 
-
 namespace Math
 {
 	constexpr float halfPI = 1.57079632679f; // 90
@@ -12,22 +11,10 @@ namespace Math
 	constexpr float DegToRad(float degrees) { return degrees * (Pi / 180.f); }
 
 
-	inline float Sin(float radians)
-	{
-		return std::sinf(radians);
-	}
-	inline float Cos(float radians)
-	{
-		return std::cosf(radians);
-	}
-	inline float Sqrt(float value)
-	{
-		return std::sqrtf(value);
-	}
-	inline float Atan2(float y,float x)
-	{
-		return std::atan2f(y,x);
-	}
+	inline float Sin(float radians) { return std::sinf(radians); }
+	inline float Cos(float radians) { return std::cosf(radians); }
+	inline float Sqrt(float value) { return std::sqrtf(value); }
+	inline float Atan2(float y, float x) { return std::atan2f(y, x); }
 
 	/// <summary>
 	/// Returns the maximum value of a and b.
@@ -38,23 +25,16 @@ namespace Math
 	/// <returns>The maximum value between a and b.</returns>
 
 	template<typename T>
-	T Max(T a, T b)
-	{
-		return (a > b) ? a : b;
-	}
+	T Max(T a, T b) { return (a > b) ? a : b; }
+
 	template<typename T>
-	T Min(T a, T b)
-	{
-		return (a < b) ? a : b;
-	}
+	T Min(T a, T b) { return (a < b) ? a : b; }
+
 	template<typename T>
-	T Abs(T value)
-	{
-		return (value < 0) ? -value : value;
-	}
+	T Abs(T value) { return(value < 0) ? -value : value; }
+
 	template<typename T>
-	T Clamp(T v, T min, T max)
-	{
-		return (v < min) ? min : (v > max) ? max : v;
-	}
+	inline T Clamp(T v, T min, T max) { return (v < min) ? min : (v > max) ? max : v; }
+	inline int Wrap(int value, int max) { return value % max + (value < 0) ? max : 0; }
+	inline float Wrap(float value, float max) { return std::fmodf(value, max) + ((value < 0) ? max : 0); }
 }

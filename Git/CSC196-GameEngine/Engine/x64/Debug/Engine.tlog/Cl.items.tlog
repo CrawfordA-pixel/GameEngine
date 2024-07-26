@@ -1,5 +1,12 @@
+C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Actor.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Actor.obj
+C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Audio.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Audio.obj
+C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Engine.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Engine.obj
 C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\ETime.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\ETime.obj
+C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Font.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Font.obj
 C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Input.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Input.obj
 C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Model.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Model.obj
 C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Particle.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Particle.obj
+C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\ParticleSystem.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\ParticleSystem.obj
 C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Renderer.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Renderer.obj
+C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Scene.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Scene.obj
+C:\NU Q4\CSC196\CSC196-GameEngine\Engine\Source\Text.cpp;C:\NU Q4\CSC196\CSC196-GameEngine\Engine\x64\Debug\Text.obj
