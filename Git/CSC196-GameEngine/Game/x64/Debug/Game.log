@@ -1,2 +1,13 @@
-﻿  Main.cpp
+﻿  Player.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\memory(3434,56): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\memory(3434,56): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\memory(3434,56): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\memory(3434,56): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\memory(3434,56): warning C4244:         ]
+  (compiling source file 'Source/Player.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\memory(3434,56):
+  the template instantiation context (the oldest one first) is
+  	C:\NU Q4\CSC196\CSC196-GameEngine\Game\Source\Player.cpp(56,22):
+  	see reference to function template instantiation 'std::unique_ptr<Bullet,std::default_delete<Bullet>> std::make_unique<Bullet,int,Transform&,Model*&,0>(int &&,Transform &,Model *&)' being compiled
+  
   Game.vcxproj -> C:\NU Q4\CSC196\CSC196-GameEngine\x64\Debug\Game.exe

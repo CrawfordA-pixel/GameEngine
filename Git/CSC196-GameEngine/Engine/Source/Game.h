@@ -3,7 +3,8 @@ class Engine;
 class Renderer;
 class Scene;
 
-class Game {
+class Game 
+{
 public:
 	Game() = default;
 	Game(Engine* engine) : m_engine{ engine } {}
@@ -25,4 +26,5 @@ protected:
 	int m_score = 0;
 	Engine* m_engine{ nullptr };
 	Scene* m_scene{ nullptr };
+
 };
